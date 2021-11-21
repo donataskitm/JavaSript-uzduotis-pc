@@ -4,9 +4,11 @@ function checking(){
 	elem.rows = 4;
 	clientH = elem.clientHeight;
 	scrollH = elem.scrollHeight;
-	
+	elem.style.overflow = 'hidden';
+	elem.scroll.Hidden;
 	if (clientH < scrollH){
-		elem.rows = 8;	
+		elem.rows = 8;
+		elem.style.overflow = '';		
 	} 	else {
 		clientH1 = elem.clientHeight;
 		scrollH1 = elem.scrollHeight;
