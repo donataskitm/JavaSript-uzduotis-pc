@@ -30,7 +30,7 @@ function validation(minValue,  maxValue) {
 }
 
 function checking(evt) {
-	var elem = document.getElementById('myTextarea');
+	const elem = document.getElementById('myTextarea');
 	elem.rows = evt.currentTarget.myParamMin;
 	clientH = elem.clientHeight;
 	scrollH = elem.scrollHeight;
