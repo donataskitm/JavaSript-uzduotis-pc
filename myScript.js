@@ -36,14 +36,14 @@ function checking(evt) {
 	scrollH = elem.scrollHeight;
 	elem.style.overflow = 'hidden';
 	
-	if (clientH < scrollH){
+	if (clientH < scrollH) {
 		elem.rows = evt.currentTarget.myParamMax;
 		elem.style.overflow = '';		
 	} else {
 		clientH1 = elem.clientHeight;
 		scrollH1 = elem.scrollHeight;
 		
-		if (clientH1 < scrollH1){
+		if (clientH1 < scrollH1) {
 			elem.rows = evt.currentTarget.myParamMin;
 		}
 	}
