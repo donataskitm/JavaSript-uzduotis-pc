@@ -1,5 +1,13 @@
+div, p {
+	text-align: center;
+}
 
 #myTextarea{
-resize: none; 
-overflow:auto;
+	resize: none; 
+	overflow:auto;
 }
+
+#Area {
+	padding-top: 20px;
+}
+

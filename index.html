@@ -3,12 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Užduotis</title>
+    <title>Task</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="myScript.js"></script>  
+	
   </head>
   <body>
-      <p>Laukas tekstui įvesti</p>
-	  <textarea onKeyUp="checking()" id="myTextarea" placeholder="Bandom!" rows="4"></textarea>
+      <p>Enter min and max number of rows </p>
+	  <div>
+	  <form>
+		  <label for="txtMin">Min number:</label>
+		  <input type="number" min="1" id="txtMin" name="txtMin"><br><br>
+		  <label for="txtMax">Max number:</label>
+		  <input type="number" min="1" id="txtMax" name="txtMax"><br><br>
+		  <button type="button" id="btnReadV">Start!</button>
+		</form>
+	  </div>
+	  <div id="Area">
+	  </div>
  </body>
+ <script type="text/javascript" src="myScript.js"></script>  
 </html>
