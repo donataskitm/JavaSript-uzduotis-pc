@@ -7,3 +7,5 @@ Pakeisti textArea kad atitiktų šiuos reikalavimus:
 ◆ Neleisti vartotojui “tampyti” text area
 ◆ Naudoti tik JS, HTML ir CSS
 ◆ Panaudoti EsLint ir Babel (jeigu naudosit ECMA6)
+
+![alt text](https://github.com/donataskitm/js-textArea-uzduotis-pc/blob/su-mygtuku/size.png?raw=true)
