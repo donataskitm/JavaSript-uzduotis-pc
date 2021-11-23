@@ -32,16 +32,16 @@ function validation(minValue,  maxValue) {
 function checking(evt) {
 	const elem = document.getElementById('myTextarea');
 	elem.rows = evt.currentTarget.myParamMin;
-	clientH = elem.clientHeight;
-	scrollH = elem.scrollHeight;
+	let clientH = elem.clientHeight;
+	let scrollH = elem.scrollHeight;
 	elem.style.overflow = 'hidden';
 	
 	if (clientH < scrollH) {
 		elem.rows = evt.currentTarget.myParamMax;
 		elem.style.overflow = '';		
 	} else {
-		clientH1 = elem.clientHeight;
-		scrollH1 = elem.scrollHeight;
+		let clientH1 = elem.clientHeight;
+		let scrollH1 = elem.scrollHeight;
 		
 		if (clientH1 < scrollH1) {
 			elem.rows = evt.currentTarget.myParamMin;
