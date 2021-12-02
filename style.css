@@ -1,0 +1,13 @@
+div, p {
+	text-align: center;
+}
+
+#textArea {
+	resize: none; 
+	overflow:auto;
+}
+
+#textAreaBlock {
+	padding-top: 20px;
+}
+
