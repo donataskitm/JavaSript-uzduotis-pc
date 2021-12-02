@@ -10,7 +10,7 @@ Pakeisti textArea kad atitiktų šiuos reikalavimus:
 
 ![alt text](https://github.com/donataskitm/js-textArea-uzduotis-pc/blob/su-mygtuku/size.png?raw=true)
 
-
+Pastabos:
 - myScript.js failas, galėtų turėti pavadinimą, kuris nusako kas ten yra (atlikta).
 - myScript.js faile yra ir text area aukscio keitimas bei validacija, reikėtų paskaidyti į atskirus failus
 laikantis single responsibility principo (atlikta).
